@@ -56,7 +56,8 @@ Se da cuenta de que el commit anterior debía incluir también los estilos base.
 
 ### EJERCICIO 6: Trabajar con ramas
 1. Cree una rama llamada feature-carrito y cambie a ella en un solo comando.
-2. Desde VS Code, agregue alguna línea al archivo app.js.
+2. Desde VS Code, agregue alguna línea al archivogit add app.js
+git commit -m "Agrega funcionalidad del carrito en app.js" app.js.
 3. Guarde y haga commit en esa rama.
 4. Regrese a la rama principal y observe en VS Code que el archivo app.js volvió a su versión anterior.
 5. Liste todas las ramas existentes para confirmar en cuál se encuentra.
@@ -104,7 +105,7 @@ Una vez revisado, fusione los cambios y confirme en VS Code que el README.md apa
 1. Simule un día completo de trabajo profesional:
 2. Empiece sincronizando su rama principal con el remoto.
 3. Cree una rama llamada feature-checkout y cambie a ella.
-4. Desde VS Code, cree un archivo checkout.html.
+4. Desde VS Code, cree un archivo checkout.html
 5. Revise el estado del repositorio, agregue el archivo al staging y revise las diferencias preparadas antes de confirmar. 
 6. Haga commit y suba la rama al remoto. 
 7. Regrese a la rama principal, fusione la funcionalidad, suba los cambios actualizados al remoto y finalmente elimine la rama tanto en local como en GitHub.
